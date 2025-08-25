@@ -149,6 +149,11 @@ h2 {
     z-index: 1000;
 }
 .rotacao-botao{
-    tranform: rotate(-90deg);
-    trasform-origin: right center
+    transform: rotate(-90deg);
+    transform-origin: right center
+    .opcoes-acessibilidade{
+        magin-top: 10px;
+        display: flex;
+        flex-direction: colimn;
+    }
 }

@@ -151,9 +151,15 @@ h2 {
 .rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center
+}
     .opcoes-acessibilidade{
         magin-top: 10px;
         display: flex;
         flex-direction: colimn;
     }
+.opcoes-acessibilidade button{
+    magin-botton: 5px;
+}
+.apresnta-lista{
+    display: nome;
 }

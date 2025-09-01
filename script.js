@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const botaoAcessibilidade = document.getElementById('botao-acessibilidade');
 const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
+const alternaContraste = document.getElementById('alterna-contraste'); 
 
 botaoAcessibilidade.eddEventlistener('click', function(){
 botaoAcessibilidade.classList.toggle('rotacao-botao');
@@ -26,6 +27,14 @@ opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
 
 
 })
+
+
+alternaContraste.addEventListener('click', function(){
+ document.body.classList.toggle('alto-contraste')
+})
+
+
+
 })
 
 

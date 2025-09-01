@@ -158,7 +158,7 @@ h2 {
     .opcoes-acessibilidade{
         margin-top: 10px;
         display: flex;
-        flex-direction: colimn;
+        flex-direction: column;
     }
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
@@ -174,4 +174,16 @@ h2 {
 .alto-contraste header, .alto-contraste footer, .alto-contraste .formulario{
     background-color: var(--alto-contraste-fundo);
     color: var(--altor-contraste-texto);
+}
+.alto-contraste .nav-link{
+color: var(--alto-contraste)
+}
+.alto-contraste #tropicalia{
+    background: none;
+}
+.alto-contraste #galeria{
+    background-color: var(--alto-contraste-fundo);
+}
+.alto-contraste .fundo-galeria{
+    background: none;
 }

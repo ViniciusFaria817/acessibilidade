@@ -153,12 +153,12 @@ h2 {
     transform-origin: right center
 }
     .opcoes-acessibilidade{
-        magin-top: 10px;
+        margin-top: 10px;
         display: flex;
         flex-direction: colimn;
     }
 .opcoes-acessibilidade button{
-    magin-botton: 5px;
+    margin-bottom: 5px;
 }
 .apresnta-lista{
     display: nome;
